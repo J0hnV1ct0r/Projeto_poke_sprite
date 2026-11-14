@@ -17,3 +17,13 @@ __pycache__/
 .vscode/
 .DS_Store
 Thumbs.db
+
+
+# Checkpoints e modelos treinados
+*.pt
+*.pth
+*.ckpt
+
+# Checkpoints do projeto
+poke_sprite/**/*.pt
+poke_sprite/**/*.pth
