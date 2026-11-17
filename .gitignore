@@ -32,3 +32,6 @@ poke_sprite/**/*.pth
 /poke_sprite/processed/
 /poke_sprite/processed_masked/
 /poke_sprite/masks/
+
+# Historicos regenerados pelos treinamentos
+/poke_sprite/*_history.csv
