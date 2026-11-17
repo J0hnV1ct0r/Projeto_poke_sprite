@@ -27,3 +27,11 @@ Thumbs.db
 # Checkpoints do projeto
 poke_sprite/**/*.pt
 poke_sprite/**/*.pth
+
+# Imagens intermediarias e mascaras recriadas pelo pre-processamento
+/poke_sprite/processed/
+/poke_sprite/processed_masked/
+/poke_sprite/masks/
+
+# Historicos regenerados pelos treinamentos
+/poke_sprite/*_history.csv
