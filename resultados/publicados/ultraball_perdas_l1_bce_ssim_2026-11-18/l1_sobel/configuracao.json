@@ -1,0 +1,22 @@
+{
+  "experiment": "original_bordas",
+  "beta_max": 1.0,
+  "beta_warmup_epochs": 40,
+  "seed": 42,
+  "lambda_bg": 0.1,
+  "lambda_edge": 0.1,
+  "edge_loss": "sobel_l1_dilated_alpha_mask",
+  "selection_metric": "val_total_no_edge",
+  "kl_normalization": 32.0,
+  "latent_channels": 16,
+  "latent_size": 16,
+  "batch_size": 32,
+  "epochs_limit": 150,
+  "device_name": "Tesla T4",
+  "torch_version": "2.14.1+cu130",
+  "exported_at_utc": "20261118T162317_546912Z",
+  "sha256": {
+    "cvae_spatial_16x16x16_kl_beta1_warmup40_sobel0p1_best.pt": "0dff24cd565c72d15c8652d9863c298ebf497477f6a2dbe03fed494319d2e543",
+    "cvae_spatial_16x16x16_kl_beta1_warmup40_sobel0p1_history.csv": "de3b67466be47678e5990eed001045eb7990ebcdbc4f45b0047a4b382ae7c1f6"
+  }
+}

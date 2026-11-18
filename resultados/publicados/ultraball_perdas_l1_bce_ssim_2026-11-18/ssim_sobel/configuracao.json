@@ -1,0 +1,33 @@
+{
+  "experiment": "ssim_bordas",
+  "beta_max": 1.0,
+  "beta_warmup_epochs": 40,
+  "seed": 42,
+  "lambda_bg": 0.1,
+  "lambda_edge": 0.1,
+  "edge_loss": "sobel_l1_dilated_alpha_mask",
+  "selection_metric": "val_l1_masked_plus_kl",
+  "reconstruction_kind": "ssim",
+  "reconstruction_details": {
+    "window_size": 7,
+    "sigma": 1.5,
+    "data_range": 1.0,
+    "k1": 0.01,
+    "k2": 0.03,
+    "padding": "reflect",
+    "error_map": "(1-ssim)/2",
+    "reduction": "masked_sum_per_image_mean_batch"
+  },
+  "kl_normalization": 32.0,
+  "latent_channels": 16,
+  "latent_size": 16,
+  "batch_size": 32,
+  "epochs_limit": 150,
+  "device_name": "Tesla T4",
+  "torch_version": "2.14.1+cu130",
+  "exported_at_utc": "20261118T165710_814442Z",
+  "sha256": {
+    "cvae_spatial_16x16x16_kl_beta1_warmup40_sobel0p1_ssim_best.pt": "a96df8cc2cc2afb1af4f32dd858b8b387280791cc4325cdd7ba247e8fead0c34",
+    "cvae_spatial_16x16x16_kl_beta1_warmup40_sobel0p1_ssim_history.csv": "b8fe9133ab8761c8efc63375da3a43f8cf2e182c0d2aa86522f99bc883031685"
+  }
+}
