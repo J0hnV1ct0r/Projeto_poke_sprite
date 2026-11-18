@@ -1,0 +1,2 @@
+beta_final_planejado,warmup_epocas,epocas_executadas,melhor_epoca,beta_na_melhor_epoca,melhor_validacao_beta_fixo_2,semente,lambda_background,normalizacao_kl,foreground_soma_media_por_imagem,background_soma_media_por_imagem,kl_normalizada,kl_bruta,iou_por_limiar_intensidade,dice_por_limiar_intensidade
+2.0,80,99,59,1.475,184.25182824452716,42,0.1,32,155.1196,21.4839,11.8215,378.2878,0.8316,0.9051
