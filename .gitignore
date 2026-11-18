@@ -35,3 +35,6 @@ poke_sprite/**/*.pth
 
 # Historicos regenerados pelos treinamentos
 /poke_sprite/*_history.csv
+
+# Copias locais de resultados e checkpoints de experimentos
+/resultados/
