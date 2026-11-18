@@ -37,4 +37,5 @@ poke_sprite/**/*.pth
 /poke_sprite/*_history.csv
 
 # Copias locais de resultados e checkpoints de experimentos
-/resultados/
+/resultados/*
+!/resultados/publicados/

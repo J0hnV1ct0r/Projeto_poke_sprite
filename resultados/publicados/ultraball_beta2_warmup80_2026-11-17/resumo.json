@@ -1,0 +1,37 @@
+{
+  "configuracao": "Ultraball - KL reforcada",
+  "beta_final_planejado": 2.0,
+  "warmup_epocas": 80,
+  "epocas_executadas": 99,
+  "melhor_epoca": 59,
+  "beta_na_melhor_epoca": 1.475,
+  "melhor_validacao_beta_fixo_2": 184.25182824452716,
+  "semente": 42,
+  "lambda_background": 0.1,
+  "normalizacao_kl": 32,
+  "origem": "Arquivos baixados do Google Colab em 17/11/2026",
+  "observacao": "O checkpoint selecionado foi obtido durante o warm-up. Esta execucao nao comprova melhora de geracao frente ao original.",
+  "sha256": {
+    "pokeBWTPST_ultraball.ipynb": "525f29fd16f3c3d1789d832d4b3709e7205863fd5796336e089e1f6a112e4b26",
+    "cvae_spatial_16x16x16_kl_beta2_warmup80_best.pt": "a883fab515d58abbb2963e500f3181d8d74216a8c8744a7e5db471cac9a52bfb",
+    "cvae_spatial_16x16x16_kl_beta2_warmup80_history.csv": "26643f1ae00cc937883279ffbc9040c5450da86eca2df051c70cb0e9d376e260"
+  },
+  "figuras": [
+    "curvas_treinamento.png",
+    "reconstrucoes.png",
+    "kl_por_canal.png",
+    "geracao_prior.png",
+    "diferencas_atributos.png"
+  ],
+  "metricas_teste": {
+    "foreground_soma_media_por_imagem": 155.1196,
+    "background_soma_media_por_imagem": 21.4839,
+    "kl_normalizada": 11.8215,
+    "kl_bruta": 378.2878,
+    "iou_por_limiar_intensidade": 0.8316,
+    "dice_por_limiar_intensidade": 0.9051
+  },
+  "comparacao_original_realizada": false,
+  "pesos_incluidos_no_git": false,
+  "dispositivo_registrado": "cuda"
+}
