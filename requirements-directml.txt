@@ -1,0 +1,10 @@
+# Ambiente Windows AMD, Python 3.12. O Colab usa seu proprio PyTorch CUDA.
+torch==2.4.1
+torch-directml==0.2.5.dev240914
+numpy==1.26.4
+pandas
+matplotlib
+Pillow
+requests
+ipykernel
+jinja2
